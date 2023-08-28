@@ -1,0 +1,157 @@
+.container {
+  grid-template-columns: [first] 33% [line2] 33% [line3] auto [end] auto ;
+  grid-template-rows: [row1-start] 16.6% [row1-end] 16.6% [third-line] 16.6% [fourth-line] 16.6% [last-line] 16.6% [sixth-line] auto;
+   height: 97vh;
+   display: grid
+}
+
+
+
+  .birutua {
+    background-color: blue;
+    
+    font-weight: bold;
+    font-size: 30px;    
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .kuning {
+    background-color: yellow;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+  }
+
+  .merah {
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5 ;
+    grid-row-end:6 ;
+  }
+
+  .hijau{
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:6 ;
+    grid-row-end:7 ;
+  }
+
+  .hitam{
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start:2;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:2;
+  }
+
+  .coklat{
+    background-color: brown;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+  }
+ 
+  .ungu{
+    background-color:purple ;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end:6 ;
+  }
+
+  .orange{
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end:7;
+
+  }
+  
+  .putih{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:5 ;
+
+  }
+
+  .abu{
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  .pink{
+    background-color: pink;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .biru{
+    background-color:rgb(22, 146, 234) ;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3 ;
+    grid-row-end:5 ;
+  }
+
+  .border{
+  border: 2px solid black;
+  }
+
+  .whitefont{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .blackfont{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
