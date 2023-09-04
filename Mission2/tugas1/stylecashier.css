@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e9ba1;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.cart h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 320px; /* Adjusted height to fit all components */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-box img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.catalog-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.catalog-price {
+  font-weight: bold;
+  margin: 0;
+}
+
+.detail-barang {
+  flex-grow: 1; /* Expand to fill remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail-barang .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-barang .d-flex a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.detail-barang .d-flex a.form-control {
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+.detail-barang button {
+  margin-top: 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px; /* Adjust the max width as needed */
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 320px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.product-rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-cart-box {
+  width: 200px; /* Adjust the width as needed */
+  margin-left: 20px; /* Add some margin to separate it from the product rows */
+}
+
+.bold-text{
+  font-weight: bold;
+}

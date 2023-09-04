@@ -1,0 +1,59 @@
+/* dinostyle.css */
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#dino {
+    width: 70px;
+    height: 70px;
+    background-image: url("ironman.jpg");
+    background-size: 70px 70px;
+    position: relative;
+    top: 130px;
+}
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 130px;
+    }
+    30% {
+        top: 110px;
+    }
+    50% {
+        top: 60px;
+    }
+    80% {
+        top: 110px;
+    }
+    100% {
+        top: 130px;
+    } 
+}
+
+#cactus {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 40px;
+    left: 580px;
+    background-image: url("vader.png");
+    background-size: 90px 90px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+

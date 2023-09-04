@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mission 2 MuhFadhil</title>
+  <link rel="stylesheet" href="stylecashier.css">
+
+  <!-- Include Bootstrap CSS from CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <h1>HubbleShops</h1>
+    </div>
+  </header>
+
+
+
+  <div class="product-container">
+    <div class="product-row">
+      <div class="product-box" data-price="1199.99">
+        <img src="macpro.jpeg" alt="Product Image">
+        <h2 class="catalog-name">Mac Pro</h2>
+        <p class="catalog-price">$1199.99</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus " >-</a>
+            <a id="macpro-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus" >+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success" >Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-box" data-price="599.99">
+        <img src="download.jpeg" alt="Product Image">
+        <h2 class="catalog-name">DJI Mini 3 Pro</h2>
+        <p class="catalog-price">$599.99</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus">-</a>
+            <a id="dji-mini-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus" >+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-box" data-price="3399.99">
+        <img src="djiinspire.jpeg" alt="Product Image">
+        <h2 class="catalog-name">DJI Inspire 3 </h2>
+        <p class="catalog-price">$3399.99</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus" >-</a>
+            <a id="dji-inspire-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus">+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-box" data-price="299.99">
+        <img src="airjordan38.jpg" alt="Product Image">
+        <h2 class="catalog-name">Air Jordan 38</h2>
+        <p class="catalog-price">$299.99</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus" >-</a>
+            <a id="air-jordan-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus" >+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-box" data-price="2199.99">
+        <img src="LV.jpeg" alt="Product Image">
+        <h2 class="catalog-name">Louis Vuitton Bag</h2>
+        <p class="catalog-price">$2199.99</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus" >-</a>
+            <a id="louis-vuitton-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus" >+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-box" data-price="329">
+        <img src="galaxywatch5.jpg" alt="Product Image">
+        <h2 class="catalog-name">Samsung Galaxy Watch 5</h2>
+        <p class="catalog-price">$329</p>
+        <div class="detail-barang">
+          <div class="d-flex">
+            <a class="btn btn-primary text-center minus">-</a>
+            <a id="galaxy-watch-quantity" class="form-control text-center">0</a>
+            <a class="btn btn-primary text-center plus">+</a>
+          </div>
+          <button type="button" class="mt-2 btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="my-cart-box">
+      <div class="product-box">
+        <h4 class="bold-text ">My Cart</h4>
+        <div id="cart" class="cart"></div>
+        <div class="total-price">Total Purchase: $ 0</div>
+        <div class="Tax">Tax 11%: $ 0</div>
+        <div class="total-payment">Total Payment: $ 0</div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+<script src="icashier.js"></script>
+
+</body>
